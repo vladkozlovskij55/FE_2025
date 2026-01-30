@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>AJAX</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+      <div class="container">
+      
+      <div class="user-list"></div>
+      <div id="edit-form" class="edit-form hidden">
+        <h2 style="text-align: center;">Edit User</h2>
+        <form id="form">
+          <input type="text" id="name" placeholder="Name" required />
+          <input type="text" id="username" placeholder="Username" required />
+          <input type="text" id="phone" placeholder="Phone" required />
+          <input type="text" id="website" placeholder="Website" required />
+          <input type="email" id="email" placeholder="Email" required />
+          <div class="submit-btn"><button class="submit" type="submit">Save</button></div>
+        </form>
+      </div>
+      <div id="spinner" class="hidden"></div>
+    </div>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
